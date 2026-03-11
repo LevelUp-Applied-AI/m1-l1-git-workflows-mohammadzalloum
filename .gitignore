@@ -2,6 +2,7 @@
 .env
 *.key
 *.pem
+.venv/
 
 # Data files (never commit raw data to Git)
 *.csv
