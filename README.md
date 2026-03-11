@@ -44,19 +44,40 @@ python test_environment.py    # should print "Environment OK"
 ---
 
 ## Contributing
-project-name/
-├── README.md             — Project overview and setup instructions
-├── CHANGELOG.md          — Record of notable changes
-├── AGENTS.md             — AI contribution policy
-├── requirements.txt      — Python dependencies
-├── setup.sh              — Automated environment setup script
-├── test_environment.py   — Environment validation
-├── .gitignore            — Files excluded from version control
-├── src/                  — Production source code (importable modules)
-├── notebooks/            — Exploratory analysis notebooks
-├── data/                 — Data directory (contents not committed to Git)
-│   └── raw/              — Original unmodified data files
-└── tests/                — Automated tests
+├── AGENTS.md
+├── AGENTS.md.template
+├── CHANGELOG.md
+├── pycache
+│   └── test_environment.cpython-311-pytest-9.0.2.pyc
+├── README.md
+├── README-template.md
+├── requirements.txt
+├── setup.sh
+├── setup.sh.template
+├── test_environment.py
+└── tests
+    ├── test_environment_runs.py
+    ├── test_gitignore_has_venv.py
+    ├── test_integration_structure.py
+    ├── test_lab_structure.py
+    └── test_requirements_txt.py
+├── AGENTS.md
+├── AGENTS.md.template
+├── CHANGELOG.md
+├── pycache
+│   └── test_environment.cpython-311-pytest-9.0.2.pyc
+├── README.md
+├── README-template.md
+├── requirements.txt
+├── setup.sh
+├── setup.sh.template
+├── test_environment.py
+└── tests
+    ├── test_environment_runs.py
+    ├── test_gitignore_has_venv.py
+    ├── test_integration_structure.py
+    ├── test_lab_structure.py
+    └── test_requirements_txt.py
 ---
 
 *Starter file for Lab 1 — lab-1-git-workflows | aispire-14005*
